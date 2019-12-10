@@ -8,7 +8,7 @@ Imports System.Windows.Forms
 '*            Feel free to use this code for any use you see fit,               *
 '*       just please do not alter this info box and credit me for the code.     *
 '********************************************************************************
-
+' I left it for his Credits :D , Saher Blue Eagle :D 
 Public Class TransparentListView
     Inherits ListView
 
