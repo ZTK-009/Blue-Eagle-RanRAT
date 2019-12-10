@@ -212,6 +212,8 @@ Friend Class CodDom
 
                 Dim error1 As New CompilerError
                 If error1.IsWarning = True Then
+                        '// bypass , warnings that they are not errors , but they are labeled with a yellow triangle in the visual studio error list 
+                        '// so it is like UnCheking "Treat all Warnings as Errors"
                     GoTo bypass
                 Else
                     error1 = CompilerError_loopVariable
