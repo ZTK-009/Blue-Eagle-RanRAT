@@ -176,13 +176,15 @@ Public Class Buildtrojan
 End Class
 Friend Class CodDom
     Public Function Compile(ByVal Filname As String, ByVal source As String) As Boolean
-        Dim Compiler As CodeDomProvider = CodeDomProvider.CreateProvider("VisualBasic")
+                Dim Compiler As CodeDomProvider = CodeDomProvider.CreateProvider("VisualBasic")'//Specify the Programming Language 
+                '//If you need to compile a C# code on the fly , replace "VisualBasic" by "C#" 
 
         Dim Parameters As New CompilerParameters
         Dim cResults As CompilerResults
         Parameters.TreatWarningsAsErrors = False  'source, client, crdp
         Parameters.GenerateExecutable = True
         Parameters.OutputAssembly = Filname
+                '// Adding The Required Important main DLL Assemblies 
         Parameters.ReferencedAssemblies.Add("System.dll")
         Parameters.ReferencedAssemblies.Add("System.Collections.dll")
         Parameters.ReferencedAssemblies.Add("System.Windows.dll")
@@ -190,7 +192,6 @@ Friend Class CodDom
         Parameters.ReferencedAssemblies.Add("System.Xml.dll")
         Parameters.ReferencedAssemblies.Add("System.IO.dll")
         Parameters.ReferencedAssemblies.Add("System.Windows.Forms.dll")
-        'System.Globalization  System.Drawing.dll  
         Parameters.ReferencedAssemblies.Add("System.Globalization.dll")
         Parameters.ReferencedAssemblies.Add("System.Drawing.dll")
         '    Parameters.ReferencedAssemblies.Add("C:\Users\Admin\Desktop\Cam.dll")
@@ -214,6 +215,12 @@ Friend Class CodDom
                     GoTo bypass
                 Else
                     error1 = CompilerError_loopVariable
+                        '// Msg up the Errors , NOTE : Here the errors are diffrent , like :
+                        '// If you type in visual studio "ImageFormat.Jpeg"
+                        '//here of you typed that will get an error , you have to type it in details as "System.Drawing.Imaging.ImageFormat.Jpeg"
+                        '//and the same with every thing , also exception , System.Exception
+                        '// also file , System.IO.file
+                        '//and the same to the rest with graphics , etc , timers , forms , etc , i guess you got the idea :D 
                     MessageBox.Show("Error: " + error1.ErrorText & vbNewLine & "Line : " & error1.Line, "", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
                 End If
