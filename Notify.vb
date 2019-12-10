@@ -9,9 +9,9 @@
     Private Sub start()
         Me.Location = New Point(Screen.PrimaryScreen.WorkingArea.Size.Width - Me.Width, Screen.PrimaryScreen.WorkingArea.Size.Height)
         TextBox1.Text = "1"
-        Me.TopMost = True
         Timer1.Enabled = True
         SetCountry()
+        Me.TopMost = True
         Me.Focus()
     End Sub
     Sub SetCountry()
@@ -1029,7 +1029,7 @@
     Dim counter As Integer = 0
 
     Private Sub Timer2_Tick(sender As System.Object, e As System.EventArgs) Handles Timer2.Tick
-        'Wait
+            'Wait some time up , to increase the waiting time , increase the "3"
         If counter = 3 Then
             Timer2.Stop()
             Timer3.Start()
