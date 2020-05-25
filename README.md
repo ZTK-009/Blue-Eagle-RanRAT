@@ -14,3 +14,6 @@ The main aim of the tool : is to control vitims easily just like armitage , and 
 ILLEGAL USE OF THIS Tool , is the User Responsibility                    
 
 this tool is not 100% complete , means contains some bugs , but its advantages is for some graphics which simulates as armitage / and also can be used using command prompt provided with RAT , also this tool has constraints in its usage as i mentioned its purposes ,
+# that video too old for the installer , as the published tool has no installer , and can be run easily and main advantage is the trojan file is "compiled by [compile on the fly]" which allows trojan to be crypted using ordinary crypters into a FUD one , and its source is in a txt file in resources , "i Repeat" this tool is very dangerous , the ransom options are not tested 100% , you can review the source and make sure they are working properly not on your physical machine
+Thank you for your support and Attention .
+Best Regards
