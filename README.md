@@ -9,6 +9,14 @@
 - Other Noble Purposes
 # the releases "exe" folder contains a released [Trusted] version , you can easily download it and run it , [But Exclude from antivirus / defender] (All tools like this are filtered by companies) , and important tip : if there is an error "save out" message box says error build trojan path , run the command again , till you see file "Trojan.exe" appears on Desktop, that is the trojan / client that the victim / will run it
 
+[![Bitcoin Donate Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/Bitcoin-Donate-button.png)](https://www.facebook.com/NsBleeD/posts/)
+# Support us please 🥰  
+Bitcoin : 3LfLEoLpt3XBz7ozwSSsawWSZJruCQSQgx
+
+[![Patreaon Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/patreon_button2.png)](https://www.patreon.com/BlueEagle)
+# Support us please 🥰 for more & more  
+
+
 # How to Use : https://www.youtube.com/watch?v=SiWHrPaNUOQ
 RanRAT is a simple combination between the ransomware and the RAT [Remote Access Trojan] , This tool has better visual effects , also has good control to victims , but has only the ordinary options 
 The main aim of the tool : is to control vitims easily just like armitage , and also can automate the ransomware operation for victims from special countries , also can use the console / command line , and the out trojan is by a method calles : compile on the fly , which you can Cyrpt the trojan and turn it into FUD , without being corrupted , and can also enjoy by building up your own ransomware , and simply can encrypt and decrypt files for victims 
