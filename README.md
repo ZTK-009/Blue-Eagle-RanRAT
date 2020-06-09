@@ -9,12 +9,15 @@
 - Other Noble Purposes
 # the releases "exe" folder contains a released [Trusted] version , you can easily download it and run it , [But Exclude from antivirus / defender] (All tools like this are filtered by companies) , and important tip : if there is an error "save out" message box says error build trojan path , run the command again , till you see file "Trojan.exe" appears on Desktop, that is the trojan / client that the victim / will run it
 
+# Support us please 🥰 for more & more  
+
+[![Facebook Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/facebook_button.png)](https://www.facebook.com/NsBleeD/posts/)
+
 [![Bitcoin Donate Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/Bitcoin-Donate-button.png)](https://www.facebook.com/NsBleeD/posts/)
 # Support us please 🥰  
 Bitcoin : 3LfLEoLpt3XBz7ozwSSsawWSZJruCQSQgx
 
 [![Patreaon Button](https://raw.githubusercontent.com/SaherBlueEagle/XPR-2020-Free/master/patreon_button2.png)](https://www.patreon.com/BlueEagle)
-# Support us please 🥰 for more & more  
 
 
 # How to Use : https://www.youtube.com/watch?v=SiWHrPaNUOQ
